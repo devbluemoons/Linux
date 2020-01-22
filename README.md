@@ -7,6 +7,12 @@ uname -a
 cat /etc/issue
 ```
   
+###### [access root authority]
+```sh
+su - root
+#and then type password
+```
+  
 ###### [find directory or file name]
 ```sh
 # sudo find / -name [name] 

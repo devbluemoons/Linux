@@ -22,7 +22,7 @@ sudo find / -name tomcat8
   
 ###### [service process]
 ```sh
-# sudo service [tomcat-version] start or stop
+# sudo service [process/-version] start or stop
 
 sudo service tomcat8 start
 sudo service tomcat8 stop

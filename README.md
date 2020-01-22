@@ -5,6 +5,7 @@
 uname -a
 #OR
 cat /etc/issue
+```
   
 ###### [find directory or file name]
 ```sh

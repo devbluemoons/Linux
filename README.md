@@ -9,6 +9,8 @@ cat /etc/issue
   
 ###### [find directory or file name]
 ```sh
-sudo find / -name [name] # ex) sudo find / -name [tomcat]
+sudo find / -name [name] 
+
+# ex) sudo find / -name [tomcat]
 ```
   

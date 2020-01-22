@@ -13,6 +13,18 @@ su - root
 #and then type password
 ```
   
+###### [chown]
+```sh
+#[sudo] chown [-R] username /directory/directory/*
+
+chown root /var/lib/tomcat8/webapps/*
+```
+  
+###### [check running port]
+```sh
+netstat -ntlp
+```
+  
 ###### [find directory or file name]
 ```sh
 # sudo find / -name [name] 
@@ -26,5 +38,6 @@ sudo find / -name tomcat8
 
 sudo service tomcat8 start
 sudo service tomcat8 stop
+sudo service tomcat8 restart
 ```  
   

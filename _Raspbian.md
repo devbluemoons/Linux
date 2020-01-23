@@ -34,3 +34,11 @@ sudo systemctl restart vsftpd
 # check vsftpd status
 sudo systemctl status vsftpd
 ```
+  
+###### access server by ssh
+```sh
+# ssh -p [port] [username]@[hostname]
+
+ssh -p 9999 pi@111.222.33.44
+```
+

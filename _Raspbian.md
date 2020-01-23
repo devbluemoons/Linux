@@ -37,6 +37,7 @@ sudo systemctl status vsftpd
   
 ###### access server by ssh
 ```sh
+# before using ssh protocal private IP is set only port Number "22"!!!
 # ssh -p [port] [username]@[hostname]
 
 ssh -p 9999 pi@111.222.33.44

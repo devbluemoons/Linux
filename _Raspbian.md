@@ -42,3 +42,8 @@ sudo systemctl status vsftpd
 ssh -p 9999 pi@111.222.33.44
 ```
 
+###### access server by (s)ftp
+```sh
+# when we access server using ftp
+# please check protocal whether "SFTP" or not
+# we must use "SFTP"

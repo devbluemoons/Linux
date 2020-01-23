@@ -11,6 +11,10 @@ cat /etc/issue
 ```sh
 su - root
 #and then type password
+
+#OR
+
+sudo su
 ```
   
 ###### [chown]

@@ -41,3 +41,8 @@ sudo service tomcat8 stop
 sudo service tomcat8 restart
 ```  
   
+###### [port forwarding default port]
+```sh
+for accessing server which has private ip need to port forwarding
+
+If we'll access to use ssh or (s)ftp, we should set a private IP port as 22

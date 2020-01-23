@@ -9,12 +9,10 @@ cat /etc/issue
   
 ###### [access root authority]
 ```sh
+sudo su
+#OR
 su - root
 #and then type password
-
-#OR
-
-sudo su
 ```
   
 ###### [chown]

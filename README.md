@@ -46,3 +46,11 @@ sudo service tomcat8 restart
 # for accessing server which has private ip need to port forwarding
 
 # If we'll access to use ssh or (s)ftp, we should set a private IP port as 22
+```
+  
+###### [check log]
+```sh
+# tail -f directory/directory/file name
+tail -f tomcat/logs/catalina.out
+```
+

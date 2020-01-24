@@ -5,6 +5,13 @@ sudo apt-get upgrade      # 설치된 패키지 업그레이드
 sudo apt-get dist-upgrade # 자동 업그레이드 수행 못한 패키지 업그레이드
 ```
   
+###### search
+```sh
+ls [-al]
+#OR
+dir [-al]
+```
+  
 ###### set-up ftp
 ```sh
 # install vsftpd

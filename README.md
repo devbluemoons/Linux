@@ -15,6 +15,15 @@ su - root
 #and then type password
 ```
   
+###### [empower root authority]
+```sh
+1. sudo su
+2. vi /etc/suoers
+
+3. [일반계정명] All=(ALL:ALL) ALL
+# ex) pi All=(ALL:ALL) ALL
+```
+  
 ###### [chown]
 ```sh
 #[sudo] chown [-R] username /directory/directory/*

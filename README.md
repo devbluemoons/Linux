@@ -24,6 +24,14 @@ su - root
 # ex) pi All=(ALL:ALL) ALL
 # this file is set a option "readonly"
 # we must save to use this command ":wq!" <-- !important
+
+4. vi /etc/passwd
+5. [일반계정명]:x:0(uid):0(gid)(...) 
+# ex) pi:x:0:0(...)
+
+6. vi /etc/group
+7. root:0:[groupname]
+# ex) root:0:pi
 ```
   
 ###### [chown]

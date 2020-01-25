@@ -31,7 +31,7 @@ su - root
 
 6. vi /etc/group
 7. root:0:[groupname]
-# ex) root:0:pi
+# ex) root:x:0:pi
 ```
   
 ###### [chown]

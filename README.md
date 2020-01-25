@@ -18,10 +18,12 @@ su - root
 ###### [empower root authority]
 ```sh
 1. sudo su
-2. vi /etc/suoers
+2. vi /etc/sudoers
 
 3. [일반계정명] All=(ALL:ALL) ALL
 # ex) pi All=(ALL:ALL) ALL
+# this file is set a option "readonly"
+# we must save to use this command ":wq!" <-- !important
 ```
   
 ###### [chown]

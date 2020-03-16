@@ -5,7 +5,7 @@
 # create service file
 vi /usr/lib/systemd/system/myApp.service
 
-# Start
+# service file Start Point
 [Unit]
 Description=myApp
 After=syslog.target
@@ -20,7 +20,7 @@ SuccessExitStatus=143
 
 [Install]
 WantedBy=multi-user.target
-# End
+# service file End Point
 
 # reload systemctl
 systemctl daemon-reload

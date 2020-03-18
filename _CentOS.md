@@ -29,8 +29,8 @@ systemctl daemon-reload
 systemctl enable myApp.service
 
 # start, stop, status
-systemctl start myApp.service
-systemctl stop myApp.service
-systemctl status myApp.service
+systemctl start myApp
+systemctl stop myApp
+systemctl status myApp
 ```
 [참조] https://nalpari0628.tistory.com/entry/CentOS%EC%97%90-SpringBoot-jar%ED%8C%8C%EC%9D%BC-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0

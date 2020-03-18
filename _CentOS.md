@@ -1,4 +1,4 @@
-### centos7+
+### CentOS 7.x
   
 ###### register service
 ```sh

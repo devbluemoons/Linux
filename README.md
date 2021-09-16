@@ -75,4 +75,7 @@ sudo service tomcat8 restart
 # tail -f directory/directory/file name
 tail -f tomcat/logs/catalina.out
 ```
-
+###### [check : directory file size]
+```sh
+du -h --max-depth=1
+```

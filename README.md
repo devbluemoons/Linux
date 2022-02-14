@@ -1,6 +1,4 @@
-### linux self-study
-  
-###### [check version]
+  ###### [check version]
 ```sh
 uname -a
 #OR

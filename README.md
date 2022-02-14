@@ -77,3 +77,26 @@ tail -f tomcat/logs/catalina.out
 ```sh
 du -h --max-depth=1
 ```
+###### set-up env
+```sh
+## 리눅스 환경변수 설정
+
+- 설치할 sh 파일을 vi 또는 cat 명령어로 오픈
+  
+  ex) vi test.sh
+
+- 어느 위치에 설치할 것인지 확인가능 (파일 내부 확인) 
+
+  ex) /usr/local/bin
+
+- 현재 접속중인 최상위 디렉터리로 이동 및 파일 목록 검색
+
+  ex) cd ~
+  ex) ll -al
+
+- .bashrc 파일에 환경변수 설정 추가 및 적용
+
+  ex) vi .bashrc
+  ex) PATH=$PATH:/usr/local/bin (.bashrc 파일 내부)
+  ex) source .bashrc
+```

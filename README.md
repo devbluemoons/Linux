@@ -100,3 +100,10 @@ du -h --max-depth=1
   ex) PATH=$PATH:/usr/local/bin (.bashrc 파일 내부)
   ex) source .bashrc
 ```
+
+## virtualbox
+
+###### network 
+
+- set adapter
+[issue](https://forums.virtualbox.org/viewtopic.php?t=88980)

@@ -107,3 +107,10 @@ du -h --max-depth=1
 
 - set adapter
 [issue](https://forums.virtualbox.org/viewtopic.php?t=88980)
+
+## search installed package (ubuntu)
+```sh
+dpkg -l | grep [package-name]
+
+# dpkg -l | grep docker
+```

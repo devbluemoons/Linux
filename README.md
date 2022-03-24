@@ -112,5 +112,5 @@ du -h --max-depth=1
 ```sh
 dpkg -l | grep [package-name]
 
-# dpkg -l | grep docker
+# ex) dpkg -l | grep docker
 ```

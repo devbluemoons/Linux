@@ -114,3 +114,11 @@ dpkg -l | grep [package-name]
 
 # ex) dpkg -l | grep docker
 ```
+
+## network
+```sh
+vi /etc/netplan/***.yaml
+vi /etc/hosts
+
+netplan apply
+```

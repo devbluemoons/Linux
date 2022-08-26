@@ -3,6 +3,9 @@
 uname -a
 #OR
 cat /etc/issue
+
+# detail info
+cat /etc/os-release
 ```
   
 ###### [access root authority]

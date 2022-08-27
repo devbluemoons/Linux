@@ -140,3 +140,31 @@ vi /etc/hosts
 
 netplan apply
 ```
+
+## networking error
+- first : add nameserver info
+```sh
+# add temporary nameserver info
+sudo vi /etc/resolv.conf
+# add 
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+```
+
+- second : package update & upgrade
+```sh
+sudo apt update
+sudo apt upgrade
+```
+
+- third : install resolvconf library & set-up 
+```sh
+# install
+sudo apt install resolvconf
+# set-up head file
+sudo vi /etc/resolvconf/resolv.conf.d/head
+# add nameserver info
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+```
+

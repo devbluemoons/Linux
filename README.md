@@ -1,4 +1,19 @@
-  ###### [check version]
+## common
+- [ ] cgroups (control groups) : How much you can use (자원의 사용량 결정)
+  - [ ] CPI
+  - [ ] Memory
+  - [ ] Network
+  - [ ] Storage
+- [ ] namespace : what you can see (자원을 격리)
+  - [ ] PID
+  - [ ] Network
+  - [ ] User
+  - [ ] Mount
+  - [ ] IPC
+  - [ ] UTS
+- [ ] union mount file-system : 이미지 효율적 관리 (이미지 레이어, copy on write)
+
+###### [check version]
 ```sh
 uname -a
 #OR

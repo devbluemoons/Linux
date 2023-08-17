@@ -171,3 +171,14 @@ nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
 
+## SSH
+```sh
+# check ssh status
+service ssh status
+
+# check ufw status
+service ufw status
+
+# set disable ufw
+sudo disable ufw
+```

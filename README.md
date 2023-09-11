@@ -179,6 +179,9 @@ service ssh status
 # check ufw status
 service ufw status
 
+# set allow ssh
+sudo ufw allow ssh
+
 # set disable ufw
 sudo disable ufw
 ```
